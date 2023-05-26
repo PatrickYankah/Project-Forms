@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    height: 110px;
+    background-color: blue;
+    padding: 10px 80px;
+    border: none;
+    box-shadow:10px 10px 50px honeydew;
+    box-sizing: border-box;
+}
+
+.menu{
+    float:right;
+    display: flex;  
+}
+
+.menu li{
+    list-style: none;
+    width: 150px;
+    height: 95px;
+    line-height: 95px;
+    margin-right: 30px;
+    margin-left: 5px;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(44,44,44);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 300px;
+}
+
+.menu li:hover{
+    background-color:rgb(178, 199, 236);
+    text-align: center;
+    border-radius: 50px;
+}
+
+.menu li a:hover{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+#bookdiv{
+    width: 700px;
+    height: 450px;
+    border: 1px solid black;
+    margin:7% auto;
+    background-color:rgba(0,0,0,.70);
+    border-radius: 30px;
+    color: blue;
+}
+#bookdiv h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: blue;
+    margin-left: 1%;
+}
+#bookdiv label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color:yellow;
+}
+
+#bookdiv input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none; 
+}
+
+#formdiv{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 5% auto;
+    background-color:rgba(0,0,0,.70);
+    border-radius: 15px;
+
+}
+#formdiv h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: blue;
+    margin-left: 1%;
+}
+#formdiv label{
+    margin-left: 30%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+#formdiv input{
+    margin-left: 30%;
+    width: 168px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+}
+#btnsubmit{
+    height: 40px;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+}
+#formdiv p, a{
+    font-size: 20px;
+    color:blue;
+    text-decoration: none;
+    text-align: center;
+}
+#formdiv a:hover{
+    text-decoration: underline;
+}
